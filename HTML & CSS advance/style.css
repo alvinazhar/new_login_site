@@ -1,0 +1,216 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grade";
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Bagian Header */
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+	width: 85px;
+	margin-top: 1px; 
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover {
+	background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a {
+	line-height: 65px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+}
+
+/* Bagian Header */
+
+
+/* CSS bagian container */
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-wrapper {
+	padding-top: 180px;
+	padding-bottom: 100px;
+	color: cyan;
+	background-image: url(https://images.unsplash.com/photo-1530118098958-ae585a4348a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80); 
+	background-size: cover;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+ 	opacity: 0.7;
+ 	font-size: 45px;
+ 	letter-spacing: 5px;
+ 	margin-bottom: 10px;
+ }
+
+ .top-wrapper p {
+ 	opacity: 0.7;
+ 	margin-bottom: 3px;
+ 	color: white;
+ }
+/* CSS bagian container */
+
+/* CSS bagian login */
+.btn-wrapper {
+	margin-top: 50px 0;
+}
+
+ .btn {
+ 	padding-top: 12px;
+ 	padding-bottom: 12px;
+ 	padding-left: 24px;
+ 	padding-right: 24px;
+ 	color: white;
+ 	display: inline-block;
+ 	opacity: 0.8;
+ 	border-radius: 4px;
+ }
+
+.btn:hover {
+	opacity: 1;
+}
+
+ .signup {
+ 	background-color: #239b76;
+}
+
+.btn-wrapper p {
+	margin-top: 10px 0;
+}
+
+ .facebook {
+ 	background-color: #3b5998;
+ 	margin-right: 10px;
+ }
+
+ .twitter {
+ 	background-color: #55acee;
+ }
+
+ .fa{
+ 	margin-right: 5px;
+ }
+ /* CSS bagian login */
+
+/* CSS bagian lesson */
+
+.lesson-wrapper {
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+	background-image: url(https://images.unsplash.com/flagged/photo-1587096703738-43a53653e6a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+	background-size: cover;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+	color: #a1d1b1;
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative;
+}
+
+.lesson-icon p {
+	position: relative;
+	top: 90%;
+	width: 100%;
+	color: #a1d1b1;
+}
+
+p .txt-content {
+	width:  80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #a1d1b1;
+}
+
+/* CSS bagian lesson */
+
+/* CSS Bagian message */
+
+.message-wrapper {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+	text-align: center;
+	background-image: url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+
+}
+
+.message {
+	background-color: #5dca88;
+	padding: 15px 40px;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+	box-shadow: none;
+	position: relative;
+	top: 7px;
+}
+
+.heading h2{
+	color: #a1d1b1;
+}
+
+.heading h3 {
+	font-weight: normal;
+	color: #a1d1b1;
+}
+
+/* CSS Bagian message */
+
+/* CSS Bagian footer */
+footer {
+	padding-top: 30px;
+	margin: 0;
+}
+footer, img {
+	width: 125px;
+}
+
+p {
+	color: #a1d1b1;
+	font-size: 20px;
+}
+
+/* CSS Bagian footer */
